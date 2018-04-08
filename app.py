@@ -42,7 +42,7 @@ def greet():
         <p> Noble here o/<br><br><br>go to /noble/api/login-status<br><br>or<br><br>
         /noble/api/game-status <strong>for soul worker stuff</strong><br><br></p>
 
-        <p><br>noble/api/aq3d/item/[name] <strong>For aq3d item search</strong><br><br><br>This page is nub \o/<br></p>
+        <p><br>/noble/api/aq3d/item/[name] <strong>For aq3d item search</strong><br><br><br>This page is nub \o/<br></p>
     """
     return data
 
