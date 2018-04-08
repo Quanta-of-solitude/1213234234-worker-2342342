@@ -40,9 +40,9 @@ for x in g_data[7:13]:
 def greet():
     data = """<h1> Welcome!</h1>
         <p> Noble here o/<br><br><br>go to /noble/api/login-status<br><br>or<br><br>
-        /noble/api/game-status <strong>for soul worker stuff</strong><br><br></p>
+        /noble/api/game-status <strong>for soul worker stuff</strong><br><br>
 
-        <p><br>/noble/api/aq3d/item/[name] <strong>For aq3d item search</strong><br><br><br>This page is nub \o/<br></p>
+        <br><br><br>This page is nub \o/<br></p>
     """
     return data
 
@@ -54,7 +54,7 @@ def get_data():
 def get_data2():
     return jsonify(game_server)
 
-@app.route('/noble/api/aq3d/item/<string:name>')
+'''@app.route('/noble/api/aq3d/item/<string:name>')
 def get_data3(name):
     try:
         buggy = []
@@ -93,7 +93,7 @@ def get_data3(name):
         return jsonify(buggy)
 
     except:
-        return jsonify({"error": "Not found XD"})
+        return jsonify({"error": "Not found XD"})'''
 
 
 
