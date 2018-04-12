@@ -101,4 +101,4 @@ def get_data3(name):
 if __name__ == '__main__':
     while True:
         app.run()
-        time.sleep(1800)
+        time.sleep(40)
