@@ -55,7 +55,7 @@ def get_data():
 def get_data2():
     return jsonify(game_server)
 
-'''@app.route('/noble/api/aq3d/item/<string:name>')
+@app.route('/noble/api/aq3d/item/<string:name>')
 def get_data3(name):
     try:
         buggy = []
@@ -94,7 +94,7 @@ def get_data3(name):
         return jsonify(buggy)
 
     except:
-        return jsonify({"error": "Not found XD"})'''
+        return jsonify({"error": "Not found XD"})
 
 
 
