@@ -2,6 +2,7 @@ import os
 from flask import Flask, jsonify, request
 import requests
 import json
+import time
 import re
 from bs4 import BeautifulSoup
 app = Flask(__name__)
@@ -98,4 +99,6 @@ def get_data3(name):
 
 
 if __name__ == '__main__':
-    app.run()
+    while True:
+        app.run()
+        time.sleep(1800)
